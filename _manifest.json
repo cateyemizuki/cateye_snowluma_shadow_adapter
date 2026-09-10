@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "id": "github.cateye.snowluma-shadow-adapter",
+  "version": "0.2.1",
+  "name": "SnowLuma 影子适配器 / SnowLuma Shadow Adapter",
+  "description": "SnowLuma 环境的 NapCat 影子适配器：自建一条到 SnowLuma 服务端的 WebSocket 连接，注册 adapter.napcat.action.call 通用透传与 adapter.napcat.message.set_msg_emoji_like 等 NapCat 风格 API，让面向 NapCat 适配器编写的生态插件（如表情回应）零改动运行在 SnowLuma 上。官方 SnowLuma 适配器实装透传 feat（MaiBot-SnowLuma-Adapter issue #12）后本插件自动失效停用。",
+  "author": {
+    "name": "cateye",
+    "url": "https://github.com/cateyemizuki"
+  },
+  "license": "MIT",
+  "urls": {
+    "repository": "https://github.com/cateyemizuki/cateye_snowluma_shadow_adapter",
+    "homepage": "https://github.com/cateyemizuki/cateye_snowluma_shadow_adapter",
+    "documentation": "https://github.com/cateyemizuki/cateye_snowluma_shadow_adapter/blob/main/README.md",
+    "issues": "https://github.com/cateyemizuki/cateye_snowluma_shadow_adapter/issues"
+  },
+  "plugin_type": "tool",
+  "host_application": {
+    "min_version": "1.2.0",
+    "max_version": "1.99.99"
+  },
+  "sdk": {
+    "min_version": "2.0.0",
+    "max_version": "2.99.99"
+  },
+  "dependencies": [],
+  "capabilities": [],
+  "i18n": {
+    "default_locale": "zh-CN",
+    "supported_locales": [
+      "zh-CN"
+    ]
+  }
+}
